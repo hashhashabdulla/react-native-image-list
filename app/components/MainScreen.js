@@ -79,7 +79,7 @@ function MainScreen(props) {
   return (
     <View style={styles.container}>
       {isLoading ? (
-        <ActivityIndicator />
+        <ActivityIndicator style={{flex: 1}} size="large" color="#263238" />
       ) : (
         <>
           {/* Toggle view container */}
